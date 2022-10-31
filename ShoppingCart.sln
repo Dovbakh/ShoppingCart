@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5DCB2FFA-23BC-45F6-AC13-29CD37CC0D1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShoppingCart", "ShoppingCart", "{A54AD1F9-0D93-4334-B532-F4A1CA2CDC0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosts", "Hosts", "{434EEE9A-0B58-4DD1-B370-A703283EF8F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domains", "Domains", "{FCB82CBB-1FCE-403E-AF14-E5D96EA89853}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A1C827AA-917F-42F8-82BF-EE45C40CBDAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{E53DECAD-A229-4CC5-8E49-788306306703}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.Api", "src\ShoppingCart\Hosts\ShoppingCart.Api\ShoppingCart.Api.csproj", "{C9913495-60D3-422F-AC3A-DC8F1E5F5D33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9913495-60D3-422F-AC3A-DC8F1E5F5D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9913495-60D3-422F-AC3A-DC8F1E5F5D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9913495-60D3-422F-AC3A-DC8F1E5F5D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9913495-60D3-422F-AC3A-DC8F1E5F5D33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A54AD1F9-0D93-4334-B532-F4A1CA2CDC0B} = {5DCB2FFA-23BC-45F6-AC13-29CD37CC0D1A}
+		{434EEE9A-0B58-4DD1-B370-A703283EF8F5} = {A54AD1F9-0D93-4334-B532-F4A1CA2CDC0B}
+		{FCB82CBB-1FCE-403E-AF14-E5D96EA89853} = {A54AD1F9-0D93-4334-B532-F4A1CA2CDC0B}
+		{A1C827AA-917F-42F8-82BF-EE45C40CBDAF} = {A54AD1F9-0D93-4334-B532-F4A1CA2CDC0B}
+		{E53DECAD-A229-4CC5-8E49-788306306703} = {A54AD1F9-0D93-4334-B532-F4A1CA2CDC0B}
+		{C9913495-60D3-422F-AC3A-DC8F1E5F5D33} = {434EEE9A-0B58-4DD1-B370-A703283EF8F5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E517606F-B7D6-4E27-9CF9-6C3393AF6918}
+	EndGlobalSection
+EndGlobal
